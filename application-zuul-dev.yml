@@ -6,7 +6,7 @@ spring:
 zuul:
   routes:
     sysmanage.serviceId: hrm-sysmanage # 服务名
-    sysmanage.path: /sysmanage/** # 把myUser打头的所有请求都转发给user-provider
+    sysmanage.path: /sysmanage/** # 把sysmanage打头的所有请求都转发给hrm-sysmanage
     fastdfs.serviceId: hrm-fastdfs # 服务名
     fastdfs.path: /fastdfs/** # 把myUser打头的所有请求都转发给user-provider
     course.serviceId: hrm-course # 服务名
